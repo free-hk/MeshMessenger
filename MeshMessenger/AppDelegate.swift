@@ -16,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        bleManager.search(uuid: "6E400001-B5A3-F393-E0A9-E50E24DCCA9E")
+        bleManager.search(uuid: "6E400001-B5A3-F393-E0A9-E50E24DCCA9E") { (result) in
+            print(result)
+        }
         return true
     }
 
