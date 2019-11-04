@@ -18,7 +18,7 @@ final class BLEManager {
         self.centralManager.scanForPeripherals(withServices: [CBUUID.init(string: uuid)], options: [:]) { ( scaninfo , error) in
           
             guard error == nil else {
-                print("error = \(error?.localizedDescription)")
+                print("error = \(String(describing: error?.localizedDescription))")
                 return
             }
             
