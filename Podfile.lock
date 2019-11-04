@@ -1,0 +1,18 @@
+PODS:
+  - RZBluetooth (2.0.0):
+    - RZBluetooth/Core (= 2.0.0)
+  - RZBluetooth/Core (2.0.0)
+
+DEPENDENCIES:
+  - RZBluetooth (~> 2.0.0)
+
+SPEC REPOS:
+  trunk:
+    - RZBluetooth
+
+SPEC CHECKSUMS:
+  RZBluetooth: c92e21a798b24382f375e75e1e99dc0f3ba448a9
+
+PODFILE CHECKSUM: 86140521994a5011799ebf374c86b6c4e651ac63
+
+COCOAPODS: 1.8.4
